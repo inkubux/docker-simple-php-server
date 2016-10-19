@@ -1,7 +1,7 @@
 FROM    php
 
 VOLUME  /src
-WORKDIR /src
+WORKDIR /src/web
 
 # Run http server on port 8080
 EXPOSE  8080
