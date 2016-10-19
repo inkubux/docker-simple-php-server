@@ -1,7 +1,8 @@
 FROM    php
 
-RUN mkdir /code
-VOLUME  /code/web
+RUN mkdir -p /code/web 
+
+VOLUME  /code
 WORKDIR /code/web
 
 # Run http server on port 8080
